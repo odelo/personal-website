@@ -1,32 +1,14 @@
 .App {
-  text-align: center;
   background-color: #4c6378;
-  min-height: 120vh;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-  }
+  min-height: 100vh;
 }
 
 .App-header {
-  padding-top: 30vh;
-  padding-left: 45vh;
-  padding-right: 45vh;
-  display: flex;
-  flex-direction: column;
+  padding-top: 25vh;
+  padding-left: 25vh;
+  padding-right: 30vh;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .color-nav {
@@ -81,17 +63,24 @@ p {
 }
 
 .section-title {
-  font-size: 2vh;
+  margin-top: 2vh;
+  font-size: 25px;
 }
 
 .name {
-  font-size: 10vh;
+  font-size: 125px;
   font-weight: 600;
   font-family: "aktiv-grotesk-std", sans-serif;
 }
 
 .section-body {
-  font-size: 2vh;
-  width: 50vh;
-  margin-top: 1vh;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.rectangle {
+  height: 20px;
+  width: 100%;
+  background-color: white;
 }
