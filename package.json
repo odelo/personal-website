@@ -11,7 +11,11 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
+    "react-fade-in": "^1.1.0",
+    "react-image-tooltip": "^4.0.2",
     "react-images": "^1.1.7",
+    "react-loading": "^2.0.3",
+    "react-lottie": "^1.2.3",
     "react-scripts": "3.4.1"
   },
   "homepage": "https://odelo.github.io/personal-website",

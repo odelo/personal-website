@@ -1,6 +1,6 @@
 .App {
   background-color: #4c6378;
-  min-height: 100vh;
+  min-height: 300vh;
 }
 
 .App-header {
@@ -11,6 +11,11 @@
   color: white;
 }
 
+.App-main {
+  padding-top: 40vh;
+  font-size: 18px;
+  color: white;
+}
 .color-nav {
   background-color: #496075;
   padding-left: 40px;
@@ -62,9 +67,14 @@ p {
   margin: 0px;
 }
 
-.section-title {
+.intro {
   margin-top: 2vh;
   font-size: 25px;
+}
+
+.section-title {
+  padding: 2vh;
+  font-size: 40px;
 }
 
 .name {
@@ -83,4 +93,41 @@ p {
   height: 20px;
   width: 100%;
   background-color: white;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.keep-inline {
+  white-space: nowrap;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
